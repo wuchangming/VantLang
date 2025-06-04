@@ -14,3 +14,5 @@ The agent will then follow the loop defined in the system prompt until the goal
 is met or it halts with failure.
 
 See the prompt file for full syntax and safety rules.
+
+This repository contains the system prompt specification and examples for VantLang – a structured language designed for LLM-native execution and reasoning.
