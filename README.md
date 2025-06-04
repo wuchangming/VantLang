@@ -13,6 +13,8 @@ prompt that governs an agent's behaviour.
 The agent will then follow the loop defined in the system prompt until the goal
 is met or it halts with failure.
 
+Each round begins with a short `~PLAN[...]` block summarizing the next step for the user. This plan is purely informational and does not influence the agent's reasoning.
+
 See the prompt file for full syntax and safety rules.
 
 This repository contains the system prompt specification and examples for VantLang – a structured language designed for LLM-native execution and reasoning.
